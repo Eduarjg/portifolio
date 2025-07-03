@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+
+fazer comit
+git add .
+git commit -m "meu primeiro commit"
+git push
+
+*/
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -43,12 +52,23 @@ header p {
   margin: 0.5rem 0 0;
 }
 
+
 section {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
   text-align: center;
 }
+a {
+  text-decoration: none;
+  color: inherit; /* mantém cor do texto original */
+}
+
+a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 
 .projects {
     color: #ffffff7b;
